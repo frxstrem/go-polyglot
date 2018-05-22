@@ -1,6 +1,6 @@
 # go-polyglot
 
-`go-polyglot` is inspired by the [httpolyglot](https://github.com/mscdex/httpolyglot) Node.js module by 
+`go-polyglot` is inspired by the [httpolyglot](https://github.com/mscdex/httpolyglot) Node.js module.
 
 The polyglot listener uses the first byte sent by the client to detect a TLS connection: if the first byte is `22`, then the connection is identified as TLS, otherwise it's identified as an unencrypted connection.
 
